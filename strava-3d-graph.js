@@ -50,7 +50,7 @@ create: function() {
   jQuery('#performance').after(li);
 
   jQuery(li).append(a).attr('id', 'giro');
-  jQuery(a).addClass('tab').text('Giro').bind('click', function(event) { 
+  jQuery(a).addClass('tab').text('3D Elevation Profile').bind('click', function(event) { 
     event.cancelBubble = true; 
     jQuery('> li', ul).removeClass('selected');
     jQuery(li).addClass('selected');
