@@ -112,7 +112,7 @@ redraw: function() {
           name: segs[i].name, 
           difficulty: parseFloat(segs[i].avg_grade)*parseFloat(segs[i].distance)*1000
         };
-        seg.isClimb = seg.difficulty >= 8000;
+        seg.isClimb = seg.difficulty >= 1000;
         data.data.details.push(seg);
       }
 
