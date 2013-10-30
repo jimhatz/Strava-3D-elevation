@@ -293,7 +293,7 @@ drawGiro: function(data, xf, yf, xStep, yStep, FitGradient, angle) {
 			context.beginPath();
 			
 			var c = '';
-            if (s.gradient.toFixed(1) >= 4) c = 'rgb(160,161,163)';
+            if (s.gradient.toFixed(1) >= 1) c = 'rgb(160,161,163)';
             else c = c = 'rgb(164,165,169)';			
 			
 			context.fillStyle = c;
