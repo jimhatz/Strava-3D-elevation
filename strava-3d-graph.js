@@ -594,7 +594,7 @@ var stravaOnSteroids_LeTour = {
       event.preventDefault();
       event.stopPropogation(); });
       
-    jQuery(a).addClass('tab').text('Le Tour').bind('click', function(event) { 
+    jQuery(a).addClass('tab').text('3D Elevation Profile').bind('click', function(event) { 
       event.cancelBubble = true; 
       jQuery('> li', ul).removeClass('selected');
       jQuery(li).addClass('selected');
