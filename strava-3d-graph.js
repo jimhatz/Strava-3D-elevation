@@ -1,3 +1,15 @@
+$ curl -G https://www.strava.com/api/v3/athlete \
+    -d access_token=fd9ad2142c715c16250ec425b949fd809d297e0f \
+
+
+
+
+
+
+
+
+
+
 var stravaOnSteroids = {
   lengthMultiplierLarge : 0.001, 
   lengthMultiplierSmall : 1, 
