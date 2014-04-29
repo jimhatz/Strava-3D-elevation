@@ -1,5 +1,7 @@
-$ curl -G https://www.strava.com/api/v3/athlete \
-    -d access_token=fd9ad2142c715c16250ec425b949fd809d297e0f \
+$ curl -X POST https://www.strava.com/oauth/token \
+    -F client_id=1439 \
+    -F client_secret=d4cbf8b00602f24befcc5e79d3b594a42b6e9ed6 \
+    -F code=75e251e3ff8fff
 
 
 
